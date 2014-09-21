@@ -25,5 +25,5 @@ Library
 Executable              parse
  main-is:               parse.hs
  hs-source-dirs:        tools
- build-depends:         base >= 3 && <5, bytestring, attoparsec, text, aeson, scientific, hashmap
+ build-depends:         base >= 3 && <5, bytestring, KVParser
  ghc-options:           -Wall -threaded -rtsopts -O2

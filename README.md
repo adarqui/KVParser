@@ -10,7 +10,17 @@ TODO:
 - Handle nested quotes properly.
 - Tests
 
-Example
+
+Example (tools/parse)
+=======
+
+```
+make
+./.cabal-sandbox/bin/parse /var/log/audit.log
+```
+
+
+Example (GHCI)
 =======
 
 ```
